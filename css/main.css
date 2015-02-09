@@ -75,6 +75,9 @@ img {
     margin-left: -35px;
     margin-top: -17px;
 }
+#header #top-bar {
+    width: 100%;
+}
 #header .brand {
   float: left;
   width: 240px;
@@ -124,6 +127,7 @@ img {
   color: #797979;
 }
 #header .user-nav {
+  position:relative; /* remove? */
   float: right;
   padding-top: 23px;
   padding-right: 20px;
@@ -324,14 +328,16 @@ Search box
 */
 #searchbox {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
 }
 #search-text {
     font-size: 14px;
     color: #ddd;
     border-width: 0;
     background: transparent;
+    width: 300px;
     /*display: inline-block;*/
 }
 #search-button {
