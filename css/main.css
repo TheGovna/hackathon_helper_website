@@ -319,6 +319,39 @@ img {
   white-space: normal;
   margin-top: 5px;
 }
+/*
+Search box
+*/
+#searchbox {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#search-text {
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+    /*display: inline-block;*/
+}
+#search-button {
+    position: relative;
+    /*top: 0;*/
+    /*right: 0;*/
+    height: 42px;
+    width: 80px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border-width: 0;
+    background-color: #999;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    /*display: inline-block;*/
+}
 /* Sidebar */
 .sidebar {
   width: 240px;
